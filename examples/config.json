@@ -1,0 +1,49 @@
+{
+    "css": {
+        "yooxuibootstrap": {
+            "libname": "yoox-ui-bootstrap",
+            "config": "assets/bootstrap-3.3.2/less/_bootstrap.less",
+            "srcfiles": [
+                "variables.less",
+                "mixins.less",
+                "normalize.less",
+                "print.less",
+                "glyphicons.less",
+                "scaffolding.less",
+                "type.less",
+                "code.less",
+                "grid.less",
+                "tables.less",
+                "forms.less",
+                "buttons.less",
+                "component-animations.less",
+                "button-groups.less",
+                "list-group.less",
+                "responsive-embed.less",
+                "utilities.less",
+                "responsive-utilities.less"
+            ],
+            "destdir": "./dist/css"
+        }
+    },
+    "js": {
+        "yooxuibootstrap": {
+            "libname": "yoox-ui-bootstrap",
+            "srcfiles": [
+                "./assets/bootstrap-3.3.2/js/alert.js",
+                "./assets/bootstrap-3.3.2/js/button.js",
+                "./assets/bootstrap-3.3.2/js/carousel.js",
+                "./assets/bootstrap-3.3.2/js/dropdown.js",
+                "./assets/bootstrap-3.3.2/js/modal.js",
+                "./assets/bootstrap-3.3.2/js/tooltip.js",
+                "./assets/bootstrap-3.3.2/js/popover.js",
+                "./assets/bootstrap-3.3.2/js/tab.js",
+                "./assets/bootstrap-3.3.2/js/affix.js",
+                "./assets/bootstrap-3.3.2/js/collapse.js",
+                "./assets/bootstrap-3.3.2/js/scrollspy.js",
+                "./assets/bootstrap-3.3.2/js/transition.js"
+            ],
+            "destdir": "./dist/js"
+        }
+    }
+}
