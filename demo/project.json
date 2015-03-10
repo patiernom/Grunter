@@ -1,0 +1,17 @@
+{
+    "default":{
+        "name":"Test",
+        "rootDirectory": ".",
+        "outputDirectory": "/dist",
+        "configuration": {
+            "base":"/config",
+            "files":[
+                "config.json"
+            ],
+            "tasks":{
+                "task":"/tasks",
+                "option":"/options/"
+            }
+        }
+    }
+}

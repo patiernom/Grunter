@@ -1,0 +1,25 @@
+{
+  "css": {
+    "sample": {
+      "samplelessvariables":{
+        "libname": "samplelib",
+        "config":"dist/tmp/theme.less",
+        "srcfiles": [
+          "./assets/bootstrap-3.3.2/less/alert.less",
+          "./assets/bootstrap-3.3.2/less/button.less"
+        ],
+        "destdir": "./dist/js"
+      }
+    }
+  },
+  "js": {
+    "sample": {
+      "libname": "samplelib",
+      "srcfiles": [
+        "./assets/bootstrap-3.3.2/js/alert.js",
+        "./assets/bootstrap-3.3.2/js/button.js"
+      ],
+      "destdir": "./dist/js"
+    }
+  }
+}
