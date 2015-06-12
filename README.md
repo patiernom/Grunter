@@ -29,7 +29,7 @@ You can add some plugin for :
 {
   "devDependencies": {
     "grunt": "~0.10",
-    "grunter-projects": "0.0.1"
+    "grunter-projects": "0.0.1",
     "grunter-helpers": "0.0.1"
   },
   "projectsConfig": "./config/projects.json"
