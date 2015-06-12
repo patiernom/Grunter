@@ -2,7 +2,9 @@
  * Grunter
  * This is a project for build javscript, css, image and others assets files
  * version: 1.0.0
- * Author: Marco Patierno marco_patierno@msn.com
+ *
+ * Homepage: https://github.com/patiernom/Grunter
+ * Author: Marco Patierno - https://github.com/patiernom / https://twitter.com/MarcoPatierno
  * License: MIT
  */
 
