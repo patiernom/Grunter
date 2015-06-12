@@ -1,6 +1,10 @@
 /**
- * Created by Marco on 08/05/2014.
+ * Grunter
+ * This is a project for build javscript, css, image and others assets files
+ * version 1.0.0
+ * Author : Marco Patierno marco_patierno@msn.com
  */
+
 module.exports = function(grunt) {
     'use strict';
 
@@ -9,8 +13,8 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: packageJSON,
-        projects: require('./grunt/projects')(packageJSON),  // Project configuration.
-        helpers: require('./grunt/helpers') // helper library.
+        projects: require('grunter-projects')(packageJSON),  // Project configuration.
+        helpers: require('grunter-helpers') // helper library.
     });
 
     // Load tasks from the tasks folder

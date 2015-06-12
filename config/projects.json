@@ -1,57 +1,17 @@
 {
     "default":{
-        "name":"TestGrid",
-        "rootDirectory": "../jquery-ui-bootstrap/yoox-jquery-ui-bootstrap",
+        "name":"default",
+        "rootDirectory": "./demo",
         "outputDirectory": "/dist",
         "configuration": {
             "base":"/config",
             "files":[
-                "config.json",
-                "test.json"
+                "config.json"
             ],
             "tasks":{
                 "task":"/tasks",
                 "option":"/options/"
             }
-        }
-    },
-    "YSocialX":{
-        "name":"YSocialX",
-        "directory":  "../YSocialX",
-        "configuration": {
-            "base":"/config",
-            "file":"globals.json",
-            "source":"libraries.json"
-        },
-        "jobList": {
-            "base":"/tasks",
-            "task":"/options"
-        }
-    },
-    "YBrowser":{
-        "name":"YBrowserDetector",
-        "directory":  "../YBrowserDetector",
-        "configuration": {
-            "base":"/config",
-            "file":"globals.json",
-            "source":"libraries.json"
-        },
-        "jobList": {
-            "base":"/tasks",
-            "task":"/options"
-        }
-    },
-    "QATests":{
-        "name":"AutomaticTest",
-        "directory":  "../AutomaticTest",
-        "configuration": {
-            "base":"/config",
-            "file":"globals.json",
-            "source":"libraries.json"
-        },
-        "jobList": {
-            "base":"/tasks",
-            "task":"/options"
         }
     }
 }
