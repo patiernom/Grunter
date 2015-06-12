@@ -1,8 +1,9 @@
 /**
  * Grunter
  * This is a project for build javscript, css, image and others assets files
- * version 1.0.0
- * Author : Marco Patierno marco_patierno@msn.com
+ * version: 1.0.0
+ * Author: Marco Patierno marco_patierno@msn.com
+ * License: MIT
  */
 
 module.exports = function(grunt) {
